@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INPUTS</title>
+</head>
+<body>
+​
+	<form>
+		<p>
+			Username: <input type="text" name="">
+		</p>
+	</form>
+​
+</body>
