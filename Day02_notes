@@ -1,0 +1,133 @@
+MAY 26TH, Tuesday Notes
+HTML ==> 
+    - HyperText Markup Language
+What is markup language?
+    - Mark up languages are created using tags
+    - They are not programming languages, therefore they don't have programming logic.
+    - They are for creating better presentation structures for pages
+What are tags?
+    - Tags act like containers for our HTML data.
+    - There are two types of tags
+        1- Self closing tags / Unpaired tag
+            ex: < tagName />
+                <br>
+                <hr>
+        2- Not self closing tags / Paired tag
+            ex: < tagName > CONTENT GOES HERE </ tagName>
+            opening tag     -- content -----   closing tag
+CSS ==> Stands for Cascading Style Sheets
+    - CSS is used to give style to existing HTML Structure
+    - CSS canNOT be used by itself.
+    - If HTML is considered as the skeleton, CSS is the skin of HTML content
+JavaScript ==> 
+    - Scripting language: 
+    - It gives action/functionality/business logic/calculations to our web page
+    - Scripting languages does NOT require compiler.
+Web Elements ==>
+    - Everything we see on a webpage is a web element.
+    ex: buttons, links, images, input boxes, texts, headers
+Title ==> 
+    - Title is not displayed on the page itself
+    - It is displayed on the TAB of the browser
+    - Title is also important because when you search something on a search engines (such as Google), title is what comes up on the page
+strong -> makes text bolded
+    ex: <strong> text here is bolded </strong>
+u -> makes text/content underlined
+    ex: <u> text here is underlined </u>
+em -> makes text emphasized. 
+    ex: <em> text here is emphasized/italic </em>
+hr -> stands for horizontal ruler
+    -creates horizontal line to separate sections on a web page
+br -> stands for 'line break'
+    - basically used to push content to next line or create gaps in between contents
+ATTRIBUTES ==> 
+    - Attributes provide further information about the webelement/tag
+    - Attributes goes into the opening tag of the web element.
+    ex#1 for paired tags:
+    syntax: <tagname attributeName="attributeValue"> content goes here </tagName>
+            <h2 color="red"> this is my header text </h2>
+            color   : is attribute name
+            red     : is attribute value
+    ex#2: 
+            <h3 style="color:lightgray">My Fruit List:</h3>
+            h3      = tagName/webElement
+            style   = attribute NAME
+            color:lightgray = attribute VALUE
+ 
+img ==> tag is used to add images on HTML pages
+    - requires src attribute value to be added in the tag
+    syntax: <img src="path of the image">
+HOW TO GET PATH OF THE FILES/IMAGES?
+- There are two types of paths
+    1- Relative Path : 
+    - If the file is in the same directory we can pass the name.extension of the file as the relative path
+    - Creating a custom path for our file is relative path.
+    EX: if the image is in the same folder as our HTML document, we can pass jus the name of image and extension
+        <img src="image.jpg">
+    2- Absolute Path : 
+    -> Passing the whole path directory from the begining of /Users/username/folder/file.extension
+    -> Getting the auto generated path from our computer
+    ex : /Users/cybertekchicago-1/Desktop/cybertruck.jpg
+    How to get absolute path for Mac?
+        First way>
+            1- Right click on the file to get its path
+            2- Press and hold OPTION button
+            3- Select the "copy as path name" option  
+        Second way> 
+            1- Right click on the file/img
+            2- Go to get info
+            3- Get the path from "where"
+            /Users/cybertekchicago-1/Desktop/HTML class
+    How to get absolute path on Windows?
+        1- Right click to the file to get its path
+        2- Go to properties
+        3- Get path from "location"
+        4- Add the file name and extension at the very end
+        /Users/cybertekchicago-1/Desktop/HTML class/
+        you need to add the file name to the end :carimage.jpg
+        /Users/cybertekchicago-1/Desktop/HTML class/carimage.jpg
+a tag ===> also known as ANCHOR TAG
+    - <a> tag is used to create links in webpage
+    - We can create links to other documents
+    - We can create links to other web pages
+    - We need to pass two different values
+        1- href attribute value: for the link that we want to go
+        2- web element TEXT, that will be displayed on the page for the user.
+    syntax: 
+    <a href="https://www.google.com" >TEXT HERE WILL BE DISPLAYED ON THE PAGE</a>
+table --> 
+    - <table> tag allows us to create web tables on HTML pages
+    - We need create the row first. and then the cells inside each row
+    - <tr> -> table row
+    - <td> -> table data
+    - <th> -> table header
+    syntax: 
+        <table>
+            <thead>
+                <tr>
+                    <th>first header</th>
+                    <th>second header</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>first cell</td>
+                    <td>second cell</td>
+                </tr>
+            </tbody>
+        </table>
+div --> 
+    - <div> tag allows us to create container to group a few elements together
+    - div is a block level element, which means it will take the whole line
+    - when you create a div and apply any styling to that div, all of the elements inside of that div will be effected. 
+span -->
+    - <span> is also a container like div.
+    - the difference between div and span is, span is NOT a block level element.
+    - therefore we can do inline styling using span.
+input --> 
+    -input tag allows us to created different types of inputs from the user
+    <input type="text"> ==> creates text input box
+    <input type="password"> ==> creates password input box
+    <input type="button" value="button" > ==> creates button
+    <input type="checkbox"> ==> creates checkbox
+    <input type="radio"> ==> creates radiobuttons
